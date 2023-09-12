@@ -202,6 +202,16 @@ footer {
     width: 48%;
   }
 
+#burger {
+  display: none;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  position: static;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -229,4 +239,15 @@ footer {
     width: 23%;
   }
 
+  #burger {
+    display: none;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    position: static;
+  }
+  
+  
 }
