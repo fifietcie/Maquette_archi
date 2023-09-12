@@ -55,7 +55,7 @@ nav {
   background-color: rgb(255, 255, 255);
   position: fixed;
   /* le fixed permet de garder la barre de nav fix quand on scroll */
-  z-index: 1;
+  z-index: 2;
   /* permet de superposer les layers mais ne fonctionne pas avec une position statique (par defaut) */
   width: 100%;
   height: 55px;
@@ -162,10 +162,13 @@ button {
 }
 
 #contact .send {
-  width: 50%;
+  width: 40%;
   border: none;
   background-color: black;
   color: white;
+  width: fit-content;
+  margin: 0.5rem 0;
+  padding: 0.5rem ;
 }
 
 footer {
@@ -198,6 +201,7 @@ footer {
   #cards .card{
     width: 48%;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -224,4 +228,5 @@ footer {
   #cards .card{
     width: 23%;
   }
+
 }
